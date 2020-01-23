@@ -16,7 +16,7 @@ The logic of the application is described below:
 ## How I built this application?
 The application is divided into 3 parts:
   1. Backend:
-      - **bcrypt** : hash user's password when a user signs up and compare hashed password when user login
+      - **bcrypt** : hash user's password when a user signs up and compare hashed password when user logins
       - **body-parser**: parse the input fields from forms
       - **connect-flash** : raise error messages when errors occur
       - **cookie-parser** : parse cookie
